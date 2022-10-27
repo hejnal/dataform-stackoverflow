@@ -1,5 +1,5 @@
 {
-    "defaultSchema": "dataform_stackoverflow",
+    "defaultSchema": "dataform_stackoverflow_demo",
     "assertionSchema": "dataform_stackoverflow_assertions",
     "warehouse": "bigquery",
     "defaultDatabase": "whejna-caixa-dataops",
