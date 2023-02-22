@@ -1,0 +1,7 @@
+config {
+    type: "table",
+    schema: "reporting",
+    tags: ["demo"]
+}
+
+SELECT * FROM ${ref("posts_combined")} WHERE title LIKE '%Dataform%' LIMIT 10
