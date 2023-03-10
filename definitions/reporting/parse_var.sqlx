@@ -4,4 +4,4 @@ config {
     tags: ["demo"]
 }
 
-SELECT ${dataform.projectConfig.vars.env}
+SELECT '${dataform.projectConfig.vars.env}'
