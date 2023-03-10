@@ -3,5 +3,8 @@
     "assertionSchema": "dataform_stackoverflow_assertions",
     "warehouse": "bigquery",
     "defaultDatabase": "whejna-allfunds-datalake",
-    "defaultLocation": "US"
+    "defaultLocation": "US",
+    "vars": {
+      "env": "test"
+    }
 }

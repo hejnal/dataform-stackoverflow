@@ -1,0 +1,7 @@
+config {
+    type: "view",
+    schema: "reporting",
+    tags: ["demo"]
+}
+
+SELECT ${dataform.projectConfig.vars.env}
