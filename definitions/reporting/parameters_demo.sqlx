@@ -1,0 +1,8 @@
+config {
+    type: "table",
+    schema: "reporting",
+    tags: ["demo"]
+}
+
+SELECT FORMAT('Executed on: %s logical date, with the job description: %s', 
+    '${dataform.projectConfig.vars.logicaldate}', '${dataform.projectConfig.vars.jobdescription}') AS parametrized_msg

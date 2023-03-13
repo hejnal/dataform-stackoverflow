@@ -3,5 +3,9 @@
     "assertionSchema": "dataform_stackoverflow_assertions",
     "warehouse": "bigquery",
     "defaultDatabase": "whejna-caixa-dataops",
-    "defaultLocation": "US"
+    "defaultLocation": "US",
+    "vars": {
+        "logicaldate": "06032023",
+        "jobdescription": "Ejecucion-desde-Dataform-GCP"
+    }
 }
